@@ -1,15 +1,15 @@
-Bacteria[] bob;
+Bacteria bob;
 
  void setup()   
  {     
   size(500,500);
-  bob = new Bacteria[300];
+  bob = new Bacteria();
  }   
  void draw()   
  {    
    background(0);
-   bob.walk[];
-   bob.show[];
+   bob.walk();
+   bob.show();
  }  
  class Bacteria    
  {     
